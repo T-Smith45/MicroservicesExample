@@ -1,0 +1,10 @@
+@CommandsService_HostAddress = http://localhost:8081
+#http://localhost:5156
+
+
+### Test Connection
+POST {{CommandsService_HostAddress}}/api/c/Platforms/
+Accept: application/json
+Content-Type: application/json
+
+### /api/c/Platforms/
